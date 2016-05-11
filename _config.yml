@@ -1,0 +1,70 @@
+# Site settings
+title:       Gurchet Rai 
+email:       gurch101@gmail.com
+author:      Gurchet Rai 
+description: "wore khakis in 2015"
+baseurl:     ""
+url:         "http://gurchet-rai.net"
+date_format: "%b %-d, %Y"
+
+# Google services
+google_analytics: UA-34534851-1
+google_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   true
+show_post_footers:    false
+show_social_icons:    true 
+ajaxify_contact_form: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments: 
+facebook_appid: 
+facebook_comments_number: 10
+
+# Social icons
+github_username: gurch101
+bitbucket_username:
+stackoverflow_id: 1621330 
+twitter_username:
+google_plus_id:
+linkedin_username: gurchetrai 
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    none 
+highlighter: pygments
+paginate: 25     
+sass:
+  compressed: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-minifier
